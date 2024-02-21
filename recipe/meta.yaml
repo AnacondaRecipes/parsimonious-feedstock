@@ -21,7 +21,7 @@ requirements:
     - wheel
   run:
     - python
-    - regex
+    - regex >=2022.3.15
 
 test:
   imports:
