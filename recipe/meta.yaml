@@ -29,11 +29,9 @@ test:
   requires:
     - pip
     - pytest
-  source_files:
-    - parsimonious/tests
   commands:
     - pip check
-    - pytest parsimonious/tests --ignore=parsimonious/tests/test_benchmarks.py
+    - pytest --pyargs parsimonious -v --ignore=tests/test_benchmarks.py
 
 
 about:
